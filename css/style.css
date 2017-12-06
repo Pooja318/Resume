@@ -51,7 +51,7 @@ h1 {
 }
 
 .content {
-    padding: 20px 250px;
+    padding: 2% 12%;
 }
 
 .scrollable::-webkit-scrollbar {
@@ -67,6 +67,18 @@ h1 {
 .biodata {
     text-align: center;
     font-size: 1.5rem;
+    padding-bottom: 8%;
+}
+
+.flexBox
+{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+@media all and ( min-width: 768px ) {
+    .flexBox .a { order:2; }
+    .flexBox .b { order:1; }
 }
 
 .row {
