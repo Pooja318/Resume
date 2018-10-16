@@ -1,22 +1,9 @@
-/*@import url('https://fonts.googleapis.com/css?family=Arapey');*/
-/*@import url('https://fonts.googleapis.com/css?family=Oregano');*/
-/*@import url('https://fonts.googleapis.com/css?family=Seaweed+Script');*/
-/*@import url('https://fonts.googleapis.com/css?family=Questrial');*/
-/*@import url('https://fonts.googleapis.com/css?family=Sacramento');*/
 @import url('https://fonts.googleapis.com/css?family=Text+Me+One');
 @import url('https://fonts.googleapis.com/css?family=Merienda:700');
-/*#fdb103*/
-/*#8d8d8d*/
-/*font-family: 'Oregano', cursive;*/
-/*font-family: 'Arapey', serif;*/
-/*    font-family: 'Questrial', sans-serif;*/
-/*    font-family: 'Sacramento', cursive;*/
-/*    font-family: 'Seaweed Script', cursive;*/
-
 
 body {
-    background-color: #db172a;  
-    color: white;
+    background-color: #f6d9d5;  
+    color: #000;
     font-size: 2rem;
     font-family: 'Text Me One', sans-serif;
     width: 100%;
@@ -31,6 +18,7 @@ h1 {
     font-family: 'Merienda', cursive;
     font-size: 9rem;
     text-align: center;
+    color: #f6d9d5;
 }
 
 .subtitle {
@@ -95,6 +83,16 @@ h1 {
     padding: 15px 30px;
 }
 
+.education{
+    height: 200px;
+    border: solid 0.1rem #f9fafc;
+    border-radius: 2.5rem;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    box-shadow: 0px 0px 50px rgba(249,250,252, 0.8);
+}
+
 @media only screen and (max-width: 320px) {
 
    body { 
@@ -102,3 +100,47 @@ h1 {
    }
 
 }
+
+.panel-body {
+    color: #000;
+    background-color: #f6d9d5;
+}
+
+.panel-body ul li {
+    text-align: left;
+}
+
+.panel-title {
+    text-align: center;
+}
+
+.panel-title a{
+    font-size: 2rem;
+    display: block;
+/*    color: */
+}
+
+.panel-title a:hover {
+    text-decoration: none
+}
+
+.panel-title a:active {
+    text-decoration: none
+}
+
+a {
+    text-decoration: none !important;
+/*    width: 100% !important;*/
+}
+
+.panel-default>.panel-heading {
+    color: #000;
+/*    background-color: #295f48;*/
+    background-color: #f7d0cb;
+    border-color: #f9fafc;
+}
+
+.panel {
+    box-shadow: 0px 0px 50px rgba(249,250,252, 0.8);
+}
+
